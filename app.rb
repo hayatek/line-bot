@@ -45,7 +45,7 @@ end
 
 def bot_jp_answer_to(message, user_name)
   if message.match?(/(おはよう|こんにちは|こんばんは|ヤッホー|ハロー).*/)
-    "こんにちは#{user_name}さん！お元気ですか?"
+    "こんにちはもっちゃんさん！お元気ですか?"
   elsif message.match?(/.*元気.*(？|\?｜か)/)
     "私は元気です、#{user_name}さん"
   elsif message.match?(/.*(le wagon|ワゴン|バゴン).*/i)
